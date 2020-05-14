@@ -5,8 +5,17 @@ public class TestModel {
 	public static void main(String[] args) {
 
 		Model model = new Model();
+		
+		model.creaGrafo(2000);
+		
+		System.out.format("Grafo creato! %d vertici e %d archi", model.nVertici(), model.nArchi());
+		
+		//for(Country c: model.elencoStatiLista()) {
+			//System.out.println(c.getStateName());
+		//}
 
-		System.out.println("TestModel -- TODO");
+		//model.creaGrafo(2000);
+		//System.out.format("Grafo creato! %d vertici e %d archi", )
 		
 //		System.out.println("Creo il grafo relativo al 2000");
 //		model.createGraph(2000);
